@@ -12,7 +12,7 @@ function LoanDetails() {
   const [loan,setloan]=useState([]);
   
 
-  const getDetails= ()=>{  fetch("http://loan-assessment.onrender.com/getDetails").then((response)=>{
+  const getDetails= ()=>{  fetch("http://loan-assessment-backend.onrender.com/getDetails").then((response)=>{
     if(!response.ok){
       throw new Error("Error in request");
     }
