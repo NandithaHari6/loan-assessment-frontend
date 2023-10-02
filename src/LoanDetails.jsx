@@ -30,6 +30,7 @@ function LoanDetails() {
 }
     return (
       <>
+      {getDetails()}
        <div className="loan">
         <h1>Loan Details</h1>
         {loan.map(
